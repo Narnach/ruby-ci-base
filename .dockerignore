@@ -1,0 +1,6 @@
+# All we really care about is the Dockerfile, all other files are ignored to keep the image as small as possible.
+.dockerignore
+.git
+.gitignore
+.idea
+Readme.md
