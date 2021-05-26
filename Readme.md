@@ -1,5 +1,7 @@
 # Ruby Continuous Integration / development base image
 
+> I've stopped using this myself, so this project is archived to reflect this. As with all my open source code, it's licensed under MIT so feel free to use this however you want.
+
 Operating System-level dependencies can vary between projects, which makes local development annoying when e.g. having to juggle different versions of OpenSSL or MySQL. Putting everything (development + dependencies) in Docker can help. This image is based on [one](https://github.com/Narnach/bl-ruby-ci-base) I created for a client that needed Microsoft SQL Server, which is not available on Mac OS X other than in Docker. Obviously most projects don't use MS SQL server, so this is a stripped down version of that project (or maybe I can update that one to be an enhanced version of this one?)
 
 This contains:
